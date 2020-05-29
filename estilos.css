@@ -1,0 +1,362 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ACABA AQUI LA REGLA */
+a{
+	text-decoration: none;
+}
+
+
+.todo{
+	
+}
+.menu{
+	display: flex;
+	height: 104px;
+	
+	
+}
+
+.cabecera {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #44CD6A;
+	z-index: 100000;
+	width: 100%;
+	-webkit-box-shadow: 0px 10px 20px 0px rgba(52,52,52,0.2);
+	-moz-box-shadow: 0px 10px 20px 0px rgba(52,52,52,0.2);
+	box-shadow: 0px 10px 20px 0px rgba(52,52,52,0.2);
+}
+
+h1 {
+	background-image: url('logo.jpg');
+	background-repeat: no-repeat;
+	background-position: top left;
+	padding: 40px 50px 10px 50px;
+	font-family: plasmacubes;
+	font-size: 85px;
+	color: #FFFFFF;
+	margin: 0 0 0 0;
+}
+
+.listamenu ul{
+	display: flex;
+	font-family: Futura, Helvetica;
+	font-size: 13px;
+
+}
+
+.disclaimer a {
+	color: #3c3c3c;
+	display: flex;
+	margin-left: 284px;
+	background-image: url('telefono.jpg');
+	background-position: top left;
+	background-repeat: no-repeat;
+	padding-left: 19px;
+	margin-top: 12px;
+	font-family: Futura, Helvetica;
+	font-size: 13px;
+	
+}
+
+
+.newsletter{
+	color: #3c3c3c;
+	margin-left: 34px;
+	margin-top: 35px;
+
+}
+
+
+.login{
+	margin-top: 27px;
+	margin-left: 13px;
+}
+
+.recuadro {
+	border: 1px solid #db8759;
+	color: #FFFFFF;
+	padding: 7px 0 7px 0;
+	width: 140px;
+	background-image: url('flecha.jpg');
+	background-position: right;
+	background-repeat: no-repeat;
+	margin-right: 15px;
+}
+
+.opciones ul{
+	display: flex;
+	height: 54px;
+	background-color: #454545;
+
+}
+.opciones li{
+	border: 1px solid #777777;
+	background-color: #454545;
+
+}
+
+.item, .item a{
+	font-size: 18px;
+	color: white;
+	font-family: Futura, Helvetica;
+	padding:  20px 32px 0 32px;
+}
+.opciones li:hover {
+	background-color: #44CD6A;
+}
+.opciones li a:hover {
+	font-weight: bold;
+	color: #FFFFFF;
+	padding: 20px 28px 0 28px;
+}
+
+.texto{
+
+	margin: 200px 0 0 72px;
+}
+
+.lineauno {
+	display: flex;
+	font-size: 22px;
+	font-family: Futura, Helvetica;
+	color: #FFFFFF;
+}
+
+.padding{
+ 	margin-left: 7px;
+}
+
+#itemespecial {
+	color: #FF0000;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+#itemdisclaimer {
+	color: #FF0000;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.textoabajo {
+	font-size: 22px;
+	font-family: Futura, Helvetica;
+	color: #FFFFFF;
+}
+
+.descripcionmedia {
+	font-size: 22px;
+	font-family: Futura, Helvetica;
+	color: #FFFFFF;
+}
+
+.textoprincipal {
+	font-size: 30px;
+	font-family: Futura, Helvetica;
+	color: #FFFFFF;
+	line-height: 45px;
+	padding-bottom: 150px;
+}
+
+.foto ul{
+	margin: 29px 0 20px 73px;
+	display: flex;
+	width: 964px;
+
+
+}
+
+.rectangulo{
+	margin-top: 2px;
+	background-color: #454545;
+	width: 218px;
+	height:371px;
+}
+
+.textodos{
+
+		margin: 61px 0 0 36px;
+}
+.sale{
+		font-family: Impact,Futura, Helvetica;
+		font-size: 58px;
+		color:#e3e3e3;
+		background-image: url(rayo.jpg);
+		background-repeat: no-repeat;
+		background-position: bottom left;
+
+}
+
+.saleuno{
+	padding-left: 5px;
+
+}
+
+.saledos{
+padding-left: 26px;
+}
+
+.oferta{
+	margin-top: 17px;
+	color:#e3e3e3;
+	font-family: Futura, Helvetica;
+	margin-left: 9px;
+
+}
+
+.precio{
+	font-family: Impact,Futura, Helvetica;
+		font-size: 44px;
+		padding-top: 8px;
+		color:#f0905d;
+		margin-left: 27px;
+		margin-top: 10px;
+}
+
+
+
+.parrafo {
+	color: #FFFFFF;
+	font-size: 15px;
+	margin-top: 7px;
+	font-family: Futura, Helvetica;
+}
+
+.info a {
+	font-size: 16px;
+	font-family: Futura, Helvetica;
+	color: #FFFFFF;
+	background-image: url('mas.jpg');
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 16px;
+	padding-bottom: 2px;
+	margin-left: 167px;
+}
+
+.info a:hover{
+	text-decoration: underline;
+}
+
+
+
+.footer{
+	background-color: #454545;
+	height: 114px;
+	display: flex;
+}
+
+.politicas{
+	margin:25px 0 0 62px;
+}
+
+.itemtres a{
+	font-size: 12px;
+	font-family: Futura, Helvetica;
+	color: #cdcdcd;
+
+}
+
+.Redes{
+margin:-50px 0 0 490px;
+}
+
+.RRSS{
+	font-size: 12px;
+	font-family: Futura, Helvetica;
+	color: #cdcdcd;
+	font-weight: bold;
+	margin-bottom: 5px;
+
+}
+
+
+.sociales a{
+	padding-right: 5px;
+
+}
+
+
+.aplicaciones{
+	margin:-40px 0 0 877px;
+}
+
+.textouno {
+	margin: 40px 0 0 72px;
+	
+}
+
+
+.textopregunta {
+	background-image: url('rectangulopregunta.png');
+	background-repeat: no-repeat;
+	padding: 10px 0 10px 69px;
+	font-family: sans-serif;
+	font-size: 30px;
+	color: #F5B706;
+	
+}
+
+.textoextra {
+	font-family: Futura, Helvetica;
+	font-size: 22px;
+	color: #FFFFFF;
+	
+}
+
+.textopreguntaextra {
+	background-image: url('rectangulopregunta.png');
+	background-repeat: no-repeat;
+	padding: 10px 0 10px 69px;
+	font-family: sans-serif;
+	font-size: 30px;
+	color: #F5B706;
+}
+
+.textopreguntaextra {
+	margin: 20px 0 0 72px;
+}
